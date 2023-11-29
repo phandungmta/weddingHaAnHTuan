@@ -9,8 +9,7 @@
     <meta content="Xin hãy đến và chúc mừng đám cưới của Hà Anh Tuấn và Nguyễn Thảo Nhi
 !" name="description" />
     <meta property="og:image" content="images/1.JPG">
-    <meta property="fb:app_id" content="781066922265598" />
-    <meta property="fb:admins" content="Choi.Anderson" />
+
     <link href="images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
     <link href="images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
     <link href="images/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
@@ -38,9 +37,8 @@
    
 </head>
 
-<body id="top">
-    <header></header>
-    <div id="fb-root"></div>
+<body id="top" >
+   
     <!-- <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v3.2"></script> -->
     <div class="page-content">
@@ -211,33 +209,7 @@
     </div>
     </div>
    
-        tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">선물하기 - <span id="gift-name"></span></h5>
-                    <button aria-label="Close" class="close" data-dismiss="modal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">보내는 분 성함</span>
-                        </div>
-                        <input aria-describedby="basic-addon3" class="form-control" id="sender-name" type="text">
-                    </div>
-                    <div class="input-group">
-                        <textarea aria-label="With textarea" class="form-control" id="sender-message"
-                            placeholder="신랑, 신부에게 선물 예약과 함께 보낼 메시지를 입력해주세요. 이 메시지는 신랑, 신부에게 발송됩니다." rows=4></textarea>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-primary" id="reserveGiftButton" type="button">예약</button>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    
     <footer></footer>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -251,11 +223,22 @@
     </div>
 
     <div class="bottom_left">
-        <audio id="player" src="mus.mp3"></audio>
+        <!-- <audio id="player" src="mus.mp3"></audio> -->
+        <iframe id="player" src="mus.mp3" allow="autoplay"></iframe>
         <div>
             <i class="fa fa-music fa-2x" onclick="document.getElementById('player').play()"></i>
         </div>
     </div>
+
+    <!-- <script>
+        var player = document.getElementById('player');
+    
+        function autoPlayMusic() {
+            player.play();
+        }
+
+        
+    </script> -->
 
 </body>
 
