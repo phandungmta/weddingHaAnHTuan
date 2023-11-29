@@ -37,7 +37,7 @@
    
 </head>
 
-<body id="top" >
+<body id="top" onload="autoPlayMusic()" >
    
     <!-- <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v3.2"></script> -->
@@ -223,14 +223,14 @@
     </div>
 
     <div class="bottom_left">
-        <!-- <audio id="player" src="mus.mp3"></audio> -->
-        <iframe id="player" src="mus.mp3" allow="autoplay"></iframe>
+        <audio id="player" src="mus.mp3"></audio>
+        <!-- <iframe id="player" src="mus.mp3" allow="autoplay"></iframe> -->
         <div>
             <i class="fa fa-music fa-2x" onclick="document.getElementById('player').play()"></i>
         </div>
     </div>
 
-    <!-- <script>
+    <script>
         var player = document.getElementById('player');
     
         function autoPlayMusic() {
@@ -238,7 +238,7 @@
         }
 
         
-    </script> -->
+    </script>
 
 </body>
 
