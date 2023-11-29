@@ -9778,7 +9778,7 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/1.jpg") no-repeat center center;
     background-size: cover;
     /* background-position: 50%; */
-    height: 110vh;
+    height: 120vh;
     /* min-height: 300px; */
     
 }
@@ -9813,7 +9813,7 @@ body {
 }
 
 .ww-home-page .ww-wedding-announcement .ww-announcement-container {
-    max-width: 1000px;
+    max-width: 1100px;
     text-align: center;
     z-index: 999;
 }
