@@ -17,10 +17,6 @@ output2.innerHTML = myParam;
    
 })
 
-var player = document.getElementById('player');
-function autoPlayMusic() {
-    player.play();
-}
 
 
 
